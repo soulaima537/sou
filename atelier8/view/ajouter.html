@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Album</title>
+    </head>
+    <body>
+        <button><a href="showAlbums.php">Retour a la Liste des Album</a></button>
+        <hr>
+        <form method="POST"  action="addAlbum.php">
+            <table align="center">
+                <tr><td><h1>New Album</h1></td></tr>
+                <tr><td><label for="titre">Title : </label></td></tr>
+                <tr><td><input type="text" name="titre" id="titre" maxlength="50"></td></tr>
+                <tr><td><label for="prix">Price : </label></td></tr>
+                <tr><td><input type="number" step="0.01" name="prix" id="prix"></td></tr>
+                <tr><td><label for="image">Image : </label></td></tr>
+                <tr><td><input type="file" name="image" id="image" ></td></tr>
+                <tr><td><input type="submit" value="Submit"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+
